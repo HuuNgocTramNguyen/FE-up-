@@ -1,0 +1,102 @@
+/* body slideshow-gallery */
+
+/* /* for next and back */
+.slideshow-gallery * {
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide {
+  /* width: 100%;
+  height: 75%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  -webkit-transition: opacity 0.6s ease;
+  -moz-transition: opacity 0.6s ease;
+  -o-transition: opacity 0.6s ease;
+}
+
+.container-slide>.slide.active {
+  opacity: 1;
+}
+
+.container-slide>.slide>.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.container-slide>.slide-btn>.back-btn,
+.container-slide>.slide-btn>.next-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  width: 6vh;
+  height: 9vh;
+  padding: 16px 0 0 14px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.6s ease;
+  -webkit-transition: background-color 0.6s ease;
+  -moz-transition: background-color 0.6s ease;
+  -o-transition: background-color 0.6s ease;
+}
+
+.slideshow-gallery:hover>.container-slide>.slide-btn>.back-btn,
+.slideshow-gallery:hover>.container-slide>.slide-btn>.next-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slideshow-gallery:hover>.container-slide>.slide-btn>.back-btn:hover,
+.slideshow-gallery:hover>.container-slide>.slide-btn>.next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-slide>.slide-btn>.next-btn {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.container-slide>.slide-btn>.back-btn {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+@media only screen and (max-width:950px) {
+  .container-slide>.slide-btn>.back-btn,
+  .container-slide>.slide-btn>.next-btn{
+    font-size: 14px;
+    width: 5vh;
+    height: 7vh;
+    padding: 14px 0 0 12px;
+  }
+
+  .slideshow-gallery * {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .container-slide>.slide-btn>.back-btn,
+  .container-slide>.slide-btn>.next-btn{
+    font-size: 9px;
+    width: 3vh;
+    height: 5vh;
+    padding: 10px 0 0 8px;
+  }
+
+  .slideshow-gallery * {
+    width: 100%;
+    height: 40vh;
+  }
+}

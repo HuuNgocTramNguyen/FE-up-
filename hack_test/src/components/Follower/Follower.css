@@ -1,0 +1,61 @@
+/* ------------------ FOLLOW --------------------*/
+.follower {
+    width: 100%;
+    padding: 100px 0;
+    background: url('https://cdn-images.farfetch-contents.com/12/57/00/84/12570084_12050066_1000.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-attachment: fixed;
+  }
+  
+  .col-3{
+    width: 25%;
+  }
+  
+  .type {
+    text-align: center;
+  }
+
+  .type h1 {
+    font-size: 40px;
+  }
+
+  .type p {
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  @media only screen and (max-width:950px) {
+    .follower {
+      width: 100%;
+      height: 31vh;
+      padding: 70px 0;
+    }
+
+    .type h1 {
+      font-size: 21px;
+    }
+    
+    .type p {
+      font-size: 16px;
+      font-weight: 270;  
+      }
+  }
+
+  @media only screen and (max-width:600px) {
+    .follower {
+      width: 100%;
+      height: 21vh;
+      padding: 39px 0;
+    }
+    .type h1 {
+      font-size: 18px;
+    }
+    
+    .type p {
+      font-size: 12.3px;
+      font-weight: 180;  
+      }
+  }

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body{
+   font-family: 'Lora', serif;
+   background-color: #FFFFFF ;
+  }
+
+.menu{
+    /* hide menubar */
+    z-index: 1;
+    position: fixed; 
+    width: 100%;
+    background-color: black; 
+    height: 56px;
+  }
+   
+  .flo-l{
+    float: left;
+  }
+
+  .logo {
+    width: 10%;
+    padding-left: 8%;
+  }
+  
+  .logo img{
+    width: 55px;
+    height: 55px;
+  }
+
+  .menu-ul{
+    /* width: 10%; */
+    display: inline;
+    padding-right: 10%;
+  }
+   
+  .link-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 3%;
+  }
+
+  .menu-bar{
+    width: 60%;
+    margin-top: 15px;
+    text-align: right;
+  }
+
+  .input{
+    width: 30%;
+  }
+
+  .menu-bar li{
+    list-style-type: none;
+    display: inline;
+  }
+
+     .nav-cart{
+        cursor: pointer;
+        position: relative;
+    }
+   .nav-cart span{
+        position: absolute;
+        top: -12px;
+        right: -7px;
+        font-size: 14px;
+        /* background-color: white; */
+        font-size: 10px;
+        color: white;
+        padding: 3px 5px;
+        border-radius:50%;
+        z-index: -1;
+    }
+
+    header .menu,
+    header .close{
+        cursor: pointer;
+        display: none;
+    }
+
+  .btn{
+        text-decoration: none;
+         border: none;
+         outline: none;
+         color: black;
+         font-weight: 700;
+         border-radius: 30px;
+         font-size: 17px;
+         padding: 14px 29px;
+        }
+        .btn-click{
+         background: white;
+        }
+        .btn-read{
+          color: white;
+          background-color: black;
+        }
+     
+       @media only screen and (max-width:950px) {
+         .logo img{
+           width: 90px;
+         }
+         .menu{
+           height: 48px;
+         }
+     
+         .link-btn {
+           font-size: 11.5px;
+         }
+         
+         .menu-bar{
+           /* padding-left: 10%; */
+           margin-top: 12px;
+           margin-right: 5%;
+         }
+     
+         .btn{
+           font-size: 13.5px;
+           padding: 11px 20px;
+         }
+         .logo img{
+          width: 47px;
+          height: 47px;
+        }
+        .inputSearch{
+          width: 25%;
+        }
+       }
+     
+       @media only screen and (max-width:733px) {
+         .logo{
+           width: 20%;
+         }
+         
+         .hide{
+           display: none;
+         }
+
+         .menu{
+           height: 50px;
+           width: 100%;
+         }
+     
+         .link-btn {
+           font-size: 10px;
+         }
+     
+         .menu-bar{
+           margin: 9px 0px;
+           width: 35%;
+           padding-top: 6px;
+           /* border: 1px solid yellow; */
+         }
+
+         .menu-ul li{
+          padding-right: 2px;
+         }
+
+         .inputSearch{
+          width: 38%;
+          /* border: 1px solid red; */
+        }
+       }

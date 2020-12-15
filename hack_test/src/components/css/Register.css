@@ -1,0 +1,123 @@
+.regis{
+    margin: 0;
+    padding: 0;
+    /* position: absolute;  */
+}
+
+.re{
+    padding-bottom: 20px ;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1, h6{
+    color:white;
+}
+
+.pad-l{
+    padding-left: 7px;
+}
+
+.pad-r{
+    padding-right: 75px;
+}
+
+.fl-l{
+    float: right;
+}
+
+.mar-l{
+    margin-left: 75px;
+}
+
+.h-45{
+    height: 45px;
+
+}
+
+input{
+    width: 100%;
+    border: 1px solid #999;
+    font-size: 18px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.w-100{
+    width: 100%;
+}
+.pal-t-150{
+    padding-top: 30px;
+}
+.pal-t-150 button{
+    font-size: 35px;
+    margin: 20px;
+    background-color: black ;
+    color: white;
+}
+.pal-t-150 :hover{
+    background-color: white;
+    color:  black
+}
+.w-48{
+    width: 48%;
+}
+.mag-bot-30{
+    margin-bottom: 30px;
+}
+.mag-bot-10{
+    margin-bottom: 10px;
+}
+
+.container-user{
+    width: 70%;
+    margin: 100px auto;
+    padding-top: 50px ;
+    background-color: black;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 100vh;    
+}
+
+.title{
+    /* margin-top: 400px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-1{
+    display: flex;
+    justify-content: left;
+}
+
+.title-but{
+    width: 15px;
+}
+
+.but-SIGN-IN :hover {
+    background-color: white;
+    color:  #999;
+}
+
+.but-SIGN-IN{
+    width: 77%;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #999;
+    color: black;
+}
+
+.w-spa-30px{
+    word-spacing: 1px;
+    font-size: 12px;
+    color: white;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+a{
+    color: white;
+}
+.just-conten-left{
+    justify-content: left;
+}
